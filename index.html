@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday Tanya! 🎂</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="sky"></div>
+<canvas id="fx"></canvas>
+
+<section class="page on" id="lights" style="background:radial-gradient(circle at 50% 0%,#14110a,#000 62%)"><div class="cord"></div><div class="bulb" id="bulb"></div><div class="mid" style="margin-top:32vh"><div id="dk">Psst... it's dark in here. Somebody forgot to pay the electricity bill 💸</div><button class="btn lb" id="lon">Turn on the light 💡</button></div></section>
+
+<section class="page" id="loader"><div class="mid">
+  <div class="big">🎂</div>
+  <div id="lt">Preparing something special...</div>
+  <div class="bar"><i id="pb"></i></div>
+</div></section>
+
+<section class="page" id="p1"><div class="mid glass">
+  <div class="hp">🎧</div>
+  <h2 style="font-size:1.45rem;line-height:1.4;margin:.5em 0">Bete, thoda volume badha lena... aur saath mein headphones lagane ki warning bhi de raha hoon! 🎧🔊</h2>
+  <p class="sub">(Sound effects are taken very seriously here. Mute it and you'll miss the surprise... and my sparkling personality.)</p>
+  <button class="btn alt" id="test">Sound Test 🔔</button><br>
+  <button class="btn" id="go2">Earbuds plugged in? Take me in! ➔</button>
+</div></section>
+
+<section class="page" id="p2">
+  <div class="badge">🎈 Balloons Popped: <span id="sc">0</span><small id="tz">Pop the balloons 🎈 Trust me, there are surprises inside 🎁</small></div>
+  <div id="bl"></div>
+  <div class="mid">
+    <div class="glass">
+      <div class="gift" id="gift" role="button" tabindex="0" aria-label="Open the gift"><div class="box"></div><div class="lid"></div></div>
+      <div class="msg hide" id="msg"><h2 id="mh">Tap the gift 👆</h2><p id="mp" style="margin:.2em 0 0">(No, it's not a bomb. Probably.)</p></div>
+    </div>
+    <div class="glass" style="margin-top:16px">
+      <div class="cl" id="bg"><div class="dm"></div><div class="pl"></div></div>
+      <div class="cake hid nc out" id="cake"><div class="l1"></div><div class="l2"></div><div class="l3"></div><div class="cd"><i><b></b></i><i><b></b></i><i><b></b></i></div></div>
+      <button class="btn" id="blow">Lift the lid 🍽️</button>
+      <p class="note" id="cn">Something delicious is hiding under there. Lift the lid. Slowly. Dramatically.</p>
+    </div>
+    <button class="btn" id="go3" style="position:relative;z-index:20;margin-top:18px">Okay, enough goofiness... show me the real stuff! ➔</button>
+  </div>
+</section>
+
+<section class="page q" id="pq" style="--bg:linear-gradient(180deg,#0b1530,#223a73)"><div class="mid glass">
+  <p style="--d:.4s;font-size:2rem">🤫</p><p style="--d:1.4s">Goofy mode: <b>OFF</b>.</p><p style="--d:2.6s">That was the loud part.</p><p style="--d:3.8s">Shhh... the real stuff is next.</p>
+  <button class="btn" id="goL" style="margin-top:10px">I'm ready ➔</button>
+</div></section>
+
+<section class="page lp" id="p3" style="--bg:linear-gradient(160deg,#ffc2c8,#e8505e);--ink:#5c0b1b;--a1:#ff6b78;--a2:#c91f37;--sh:#c91f3766"><div class="mid glass">
+  <h2>📜 Official Complaint</h2>
+  <div class="flip" id="flip"><div class="fi"><div class="ff"><div>💙<br><b>Tap to open</b><br><small>(it's not a bill, promise)</small></div></div><div class="ff fb" id="ty"></div></div></div>
+  <h2 style="margin-top:20px">🎁 The Wish Jar</h2>
+  <p class="sub">Tap each one. Side effects include smiling.</p>
+  <div class="wg" id="wg"></div>
+  <button class="btn" id="fin">One last surprise 🎆</button><br>
+  
+</div></section>
+
+<script src="js/core.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/effects.js"></script>
+<script src="js/router.js"></script>
+<script src="js/intro.js"></script>
+<script src="js/party.js"></script>
+<script src="js/letters.js"></script>
+<script src="js/finale.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
